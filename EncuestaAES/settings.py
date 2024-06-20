@@ -24,11 +24,11 @@ SECRET_KEY = 'django-insecure-dvj53gwwns91#ih80b=0!+bq7cnz(u7-kmz*vfrw68ys6)rw!=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-# ALLOWED_HOSTS = ['richardmartus.pythonanywhere.com']
-# Application definition
+ALLOWED_HOSTS = ['richardmartus.pythonanywhere.com', 'localhost', '127.0.0.1']
+
 
 INSTALLED_APPS = [
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
